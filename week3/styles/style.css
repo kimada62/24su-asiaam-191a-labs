@@ -6,7 +6,7 @@
 }
 
 html {
-    background-color: rgb(196, 206, 237);
+    background-color:#adc6fb;
 }
 
 html, body {
@@ -56,9 +56,10 @@ img{
     max-width: 300px;
 }
 
-.buttons-container {
-  width: 50%;
-  height: 50vh;
+#contents {
+  /* the problem is here, you are setting the contents to be 50% not 100% */
+  width: 100%;
+  max-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,21 +71,6 @@ button {
   border: 2px solid #111;
   border-radius: 8px;
   box-sizing: border-box;
-  color: #111;
-  cursor: pointer;
-  display: flex;
-  font-family: Inter,sans-serif;
-  font-size: 16px;
-  height: 48px;
-  justify-content: center;
-  line-height: 24px;
-  max-width: 50%;
-  padding: 0 25px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
 }
 
@@ -157,7 +143,7 @@ a{
   left:0;
     -webkit-backface-visibility: hidden;
     -webkit-transform: translateZ(0); backface-visibility: hidden;
-  scale(1.0, 1.0);
+  scale:(1.0, 1.0);
     transform: translateZ(0);
   background:#1B2030 url(https://uploads.visitseattle.org/2023/01/23114449/Banner_UW-Quad-CorbinSchaffer.jpg) 50% 0 no-repeat;
   background-size:100%;

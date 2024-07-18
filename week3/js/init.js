@@ -12,7 +12,7 @@ let startingPoint ={
 // Initialize the map
 const map = new maplibregl.Map({
     container: 'map',
-    style: 'https://api.maptiler.com/maps/streets-v2-light/style.json?key=wsyYBQjqRwKnNsZrtci1',
+    style: 'https://api.maptiler.com/maps/5ef39cfc-d113-44d5-8639-c51385b0b115/style.json?key=uqJNwQO9lP1VKm74Hia6',
     center: startingPoint.coordinates,
     zoom: startingPoint.zoomLevel
 });
