@@ -1,0 +1,61 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "LMU": "Where I attended my third and final year of undergrad"
+        },
+        "geometry": {
+          "coordinates": [
+            -118.41740791389861,
+            33.968937266238584
+          ],
+          "type": "Point"
+        },
+        "id": 1
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "University of Washington": "Where attended my freshman and sophomore years of college"
+        },
+        "geometry": {
+          "coordinates": [
+            -122.30765631617852,
+            47.6545713858705
+          ],
+          "type": "Point"
+        },
+        "id": 2
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "KUIS": "Where I attended my study abroad in Spring of my sophomore year"
+        },
+        "geometry": {
+          "coordinates": [
+            140.0437844582533,
+            35.657072341810974
+          ],
+          "type": "Point"
+        },
+        "id": 3
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "USC": "Where I will attend my master's in Fall 2024"
+        },
+        "geometry": {
+          "coordinates": [
+            -118.28537431617858,
+            34.022059079276715
+          ],
+          "type": "Point"
+        },
+        "id": 4
+      }
+    ]
+  }
