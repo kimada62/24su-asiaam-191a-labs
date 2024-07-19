@@ -100,16 +100,17 @@ button{
     background-color: #111;
     border-radius: 8px;
     content: "";
-    display: block;
+    display: rectangle;
     /* changes the height after */
-    height: 100px;
-    left: 0;
-    width: 100%;
-    position: absolute;
+    height: 70px;
+    left: 8;
+    width: 200%;
+    //position: absolute;
     top: -2px;
     transform: translate(8px, 8px);
     transition: transform .2s ease-out;
     z-index: -1;
+    : 10;
   }
   
   button:hover:after {

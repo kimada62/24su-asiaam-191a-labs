@@ -15,10 +15,11 @@ function addMarker(feature){
     let seenMovie = feature["Have you seen Inside Out 2?"];
     let theater = feature["Where did you watch the movie?"];
     let zipcode = feature["What is your zipcode?"];
+    let experience = feature["How was your experience watching the movie?"]
     let markerColor;
     if (seenMovie == "yes"){
          popup_message = `<h2>Someone with taste!</h2> 
-         <h3>${theater}</h3>`
+         <h3>${experience}</h3>`
          createButtons(latitude,longitude,theater,seenMovie); 
          markerColor= "pink"
     }
