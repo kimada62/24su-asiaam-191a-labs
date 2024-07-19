@@ -1,5 +1,5 @@
 // declare variables
-let mapOptions = {'centerLngLat': [-118.444,34.0709],'startingZoomLevel':5}
+let mapOptions = {'centerLngLat': [-118.444,34.0709],'startingZoomLevel':10}
 
 const map = new maplibregl.Map({
     container: 'map',
